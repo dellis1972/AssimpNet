@@ -1485,8 +1485,8 @@ namespace Assimp.Unmanaged
         public const String DefaultLinux32BitPath = "Assimp32.so";
         public const String DefaultLinux64BitPath = "Assimp64.so";
 
-        public const String DefaultMac32BitPath = "libassimp32.dylib";
-        public const String DefaultMac64BitPath = "libassimp64.dylib";
+        public const String DefaultMac32BitPath = "libassimp.dylib";
+        public const String DefaultMac64BitPath = "libassimp.dylib";
 
         public static AssimpLibraryImplementation CreateRuntimeImplementation()
         {
